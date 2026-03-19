@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33abf49013189d47910d2da3ae672d4, type: 3}
+  m_Name: LightingScenariosAsset
+  m_EditorClassIdentifier: Assembly-CSharp::LightingScenariosAsset
+  scenarios:
+  - lightmapColor:
+    - {fileID: 2800000, guid: 8bbbdfd28ec571f41b069da859bd028e, type: 3}
+    - {fileID: 2800000, guid: 2e35828025f959d41a869b0c4ea8e4a2, type: 3}
+    - {fileID: 2800000, guid: 5d0a379129e5f31499f21cc52918fa4a, type: 3}
+    lightmapDirection:
+    - {fileID: 2800000, guid: 8bbbdfd28ec571f41b069da859bd028e, type: 3}
+    - {fileID: 2800000, guid: 2e35828025f959d41a869b0c4ea8e4a2, type: 3}
+    - {fileID: 2800000, guid: 5d0a379129e5f31499f21cc52918fa4a, type: 3}
+    shadowMask:
+    - {fileID: 2800000, guid: a32be706fd6009d41862bf34248523b7, type: 3}
+    - {fileID: 2800000, guid: cb7d67271700fcd4abaa627db217d74b, type: 3}
+    - {fileID: 2800000, guid: b83b9d5c10a87634db0f3db34e258bf3, type: 3}
+  - lightmapColor:
+    - {fileID: 2800000, guid: be54b135c3fbffe4dbed92dff585769b, type: 3}
+    - {fileID: 2800000, guid: e625fa82d5701c54b8fe5c4e7aa99a3a, type: 3}
+    - {fileID: 2800000, guid: d66776a4684ad5f47a7e83e56761d64b, type: 3}
+    lightmapDirection:
+    - {fileID: 2800000, guid: be54b135c3fbffe4dbed92dff585769b, type: 3}
+    - {fileID: 2800000, guid: e625fa82d5701c54b8fe5c4e7aa99a3a, type: 3}
+    - {fileID: 2800000, guid: d66776a4684ad5f47a7e83e56761d64b, type: 3}
+    shadowMask:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - lightmapColor:
+    - {fileID: 2800000, guid: 2c05c847f8d64164cb6b597c515439ca, type: 3}
+    - {fileID: 2800000, guid: 2f826db2c1f774b4f85ed7695e5c5cfa, type: 3}
+    - {fileID: 2800000, guid: b49f67014629a9b41903fff6d7bb68a5, type: 3}
+    lightmapDirection:
+    - {fileID: 2800000, guid: 2c05c847f8d64164cb6b597c515439ca, type: 3}
+    - {fileID: 2800000, guid: 2f826db2c1f774b4f85ed7695e5c5cfa, type: 3}
+    - {fileID: 2800000, guid: b49f67014629a9b41903fff6d7bb68a5, type: 3}
+    shadowMask:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
