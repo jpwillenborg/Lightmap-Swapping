@@ -18,33 +18,16 @@ public class SwitchLightingScenarios : MonoBehaviour
     }
 
 
-    // public void Switch(bool value)
-    // {
-    //     if (value)
-    //     {
-    //         probeRefVolume.BlendLightingScenario(scenario01, 1.0f);
-    //     } else
-    //     {
-    //         probeRefVolume.BlendLightingScenario(scenario02, 1.0f);
-    //     }
-    // }
-
-
     public void Switch(bool value)
-{
-    if (value)
     {
-        // probeRefVolume.SetActiveLightingScenario(scenario01);
-        UnityEngine.Rendering.ProbeReferenceVolume.instance.lightingScenario = scenario01;
-        // UnityEngine.Rendering.ProbeReferenceVolume.instance.BlendLightingScenario(scenario01, 1.0f);
-    } 
-    else
-    {
-        // probeRefVolume.SetActiveLightingScenario(scenario02);
-        UnityEngine.Rendering.ProbeReferenceVolume.instance.lightingScenario = scenario02;
-        // UnityEngine.Rendering.ProbeReferenceVolume.instance.BlendLightingScenario(scenario02, 1.0f);
+        if (value)
+        {
+            probeRefVolume.BlendLightingScenario(scenario01, 1.0f);
+        } else
+        {
+            probeRefVolume.BlendLightingScenario(scenario02, 1.0f);
+        }
     }
-}
 
 
     public void SwitchLamps(bool value)
